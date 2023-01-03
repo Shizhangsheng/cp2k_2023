@@ -12,3 +12,4 @@ make -j 16 ARCH=local VERSION="ssmp"
 source /home/zhangsheng/Downloads/cp2k/cp2k-2023.1/tools/toolchain/install/setup
 export PATH=/home/zhangsheng/Downloads/cp2k/cp2k-2023.1/exe/local:$PATH
 export CP2K_DATA_DIR=/home/zhangsheng/Downloads/cp2k/cp2k-2023.1/data
+make -j 12 ARCH=local VERSION=ssmp test
