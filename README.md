@@ -1,5 +1,5 @@
 # cp2k_2023
-wget https://github.com/cp2k/cp2k/releases/download/v2023.1/cp2k-2023.1.tar.bz2 insted source code tar.gz
+wget https://github.com/cp2k/cp2k/releases/download/v2023.1/cp2k-2023.1.tar.bz2 instead source code tar.gz
 Otherwise there will errors with make
 source /opt/intel/oneapi/mkl/2022.1.0/env/vars.sh
 sudo ./install_requirements_ubuntu.sh 
